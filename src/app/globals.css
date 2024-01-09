@@ -101,7 +101,42 @@ button {
 	background-size: 200% auto;
 }
 
+.error-icon {
+	position: absolute;
+	right: 130px;
+	top: 18px;
+	display: none;
+}
+
 button:hover {
 	background-position: right center;
 	scale: 1.1;
+}
+
+input:invalid ~ .error-icon {
+	display: block;
+}
+input:invalid {
+	border: 1px solid red;
+}
+
+.error-message {
+	position: absolute;
+	top: 70px;
+	left: 20px;
+	color: red;
+}
+
+.mobile-image {
+	display: none;
+}
+
+@media (max-width: 375px) {
+	.right-wrapper {
+		display: none;
+	}
+
+	.mobile-image {
+		display: block;
+	}
 }
