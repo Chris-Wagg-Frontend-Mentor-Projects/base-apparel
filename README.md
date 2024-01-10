@@ -4,7 +4,7 @@ https://chris-wagg-frontend-mentor-projects.github.io/base-apparel/
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](../base-apparel/public/screenshot.jpg)
 
 ## Getting Started
 
