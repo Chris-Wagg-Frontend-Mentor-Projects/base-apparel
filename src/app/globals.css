@@ -19,24 +19,28 @@ img {
 	font-family: 'Josefin Sans', sans-serif;
 	display: flex;
 	flex: 1;
+	justify-content: center;
+}
+
+.left-content-wrapper {
 	flex-direction: column;
+	max-width: 50ch;
 }
 
 header {
 	margin-top: 3rem;
-	width: 30rem;
-	align-self: center;
 }
 
 .text-wrapper {
 	display: flex;
-	flex-shrink: 1;
+	/* flex-shrink: 1; */
 	flex-direction: column;
 	justify-content: center;
 	height: 100%;
 	align-self: center;
 	gap: 2rem;
-	margin: 10rem;
+	/* margin: 10rem; */
+	/* max-width: 30rem; */
 }
 
 .pink-title {
@@ -140,20 +144,22 @@ input:invalid {
 	}
 
 	header {
+		/* margin-top: 0; */
 		margin: 2rem;
 	}
 
 	.text-wrapper {
 		text-align: center;
-		margin: 4rem;
+		margin: 2rem;
+		height: 50%;
 	}
 
 	h1,
 	.pink-title {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 
 	p {
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 	}
 }
