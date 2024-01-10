@@ -41,6 +41,7 @@ export default function Home() {
 					<div className='left-content-wrapper'>
 						<header>
 							<svg
+								aria-hidden='true'
 								xmlns='http://www.w3.org/2000/svg'
 								width='158'
 								height='33'>
@@ -102,7 +103,9 @@ export default function Home() {
 										{errors.email}
 									</p>
 								)}
-								<button onClick={handleSubmit}>
+								<button
+									aria-label='Submit button'
+									onClick={handleSubmit}>
 									<svg
 										xmlns='http://www.w3.org/2000/svg'
 										width='12'
@@ -116,6 +119,7 @@ export default function Home() {
 									</svg>
 								</button>
 								<svg
+									aria-hidden='true'
 									xmlns='http://www.w3.org/2000/svg'
 									width='24'
 									height='24'
