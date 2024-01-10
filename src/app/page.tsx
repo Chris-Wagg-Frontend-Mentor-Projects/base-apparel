@@ -80,9 +80,9 @@ export default function Home() {
 							<h1 className=''>C O M I N G S O O N</h1>
 						</div>
 						<p>
-							Hello fellow shoppers! We're currently building our
+							{`Hello fellow shoppers! We're currently building our
 							new fashion store. Add your email below to stay
-							up-to-date with announcements and our launch deals.
+							up-to-date with announcements and our launch deals.`}
 						</p>
 						<form action=''>
 							<input
