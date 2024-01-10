@@ -76,7 +76,7 @@ export default function Home() {
 					</section>
 					<section className='text-wrapper'>
 						<div>
-							<h1 className='pink-title'>W E ' R E</h1>
+							<h1 className='pink-title'>{`W E ' R E`}</h1>
 							<h1 className=''>C O M I N G S O O N</h1>
 						</div>
 						<p>
