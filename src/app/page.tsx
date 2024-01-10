@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 
 export default function Home() {
 	const [email, setEmail] = useState('')
-	const [errors, setErrors] = useState({})
+	let [errors, setErrors] = useState({})
 
 	useEffect(() => {
 		validateForm()
@@ -95,7 +95,6 @@ export default function Home() {
 							{errors.email && (
 								<p className='error-message'>{errors.email}</p>
 							)}
-
 							<button onClick={handleSubmit}>
 								<svg
 									xmlns='http://www.w3.org/2000/svg'

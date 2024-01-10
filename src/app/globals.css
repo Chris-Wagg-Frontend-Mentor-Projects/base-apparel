@@ -13,7 +13,6 @@
 img {
 	height: 100%;
 	width: 100%;
-	align-self: flex-end;
 }
 
 .left-wrapper {
@@ -21,7 +20,6 @@ img {
 	display: flex;
 	flex: 1;
 	flex-direction: column;
-	/* align-items: center; */
 }
 
 header {
@@ -32,12 +30,15 @@ header {
 
 .text-wrapper {
 	display: flex;
+	flex-shrink: 1;
 	flex-direction: column;
 	justify-content: center;
-	width: 30rem;
+	/* width: 30rem; */
+	max-width: 30rem;
 	height: 100%;
 	align-self: center;
 	gap: 2rem;
+	margin: 2rem;
 }
 
 .pink-title {
@@ -62,11 +63,11 @@ form {
 }
 
 input {
-	width: 100%;
-	position: absolute;
+	/* position: absolute; */
 	border: 1px solid hsl(0, 36%, 70%);
 	padding: 1rem;
 	border-radius: 99px;
+	width: 100%;
 }
 
 input::placeholder {
@@ -84,6 +85,7 @@ button {
 
 	position: absolute;
 	right: 0px;
+	top: 0px;
 
 	width: 7rem;
 	height: 3.65rem;
@@ -96,10 +98,10 @@ button {
 		hsl(0, 80%, 86%) 100%
 	);
 
-	/* these two + the :hover for the effect */
 	transition: 0.5s;
 	background-size: 200% auto;
 }
+/* these two + the :hover for the effect */
 
 .error-icon {
 	position: absolute;
@@ -138,5 +140,24 @@ input:invalid {
 
 	.mobile-image {
 		display: block;
+		/* width: 375px; */
+	}
+
+	header {
+		margin: 2rem;
+	}
+
+	.text-wrapper {
+		text-align: center;
+		padding: 5rem 3rem;
+	}
+
+	h1,
+	.pink-title {
+		font-size: 4rem;
+	}
+
+	p {
+		font-size: 1.1rem;
 	}
 }
