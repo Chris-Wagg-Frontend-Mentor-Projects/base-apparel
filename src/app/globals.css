@@ -6,13 +6,12 @@
 
 .content-wrapper {
 	display: flex;
-	height: 100vh;
-	width: 100vw;
+	/* height: 100vh; */
+	/* width: 100vw; */
 }
 
-img {
-	height: 100%;
-	width: 100%;
+.right-wrapper > img {
+	height: 100vh;
 }
 
 .left-wrapper {
@@ -23,6 +22,7 @@ img {
 }
 
 .left-content-wrapper {
+	display: flex;
 	flex-direction: column;
 	max-width: 50ch;
 }
@@ -33,14 +33,10 @@ header {
 
 .text-wrapper {
 	display: flex;
-	/* flex-shrink: 1; */
+	flex: 1;
 	flex-direction: column;
 	justify-content: center;
-	height: 100%;
-	align-self: center;
 	gap: 2rem;
-	/* margin: 10rem; */
-	/* max-width: 30rem; */
 }
 
 .pink-title {
@@ -151,7 +147,7 @@ input:invalid {
 	.text-wrapper {
 		text-align: center;
 		margin: 2rem;
-		height: 50%;
+		/* height: 50%; */
 	}
 
 	h1,
