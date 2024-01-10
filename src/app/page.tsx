@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 
 export default function Home() {
 	const [email, setEmail] = useState('')
-	let [errors, setErrors] = useState({})
+	const [errors, setErrors] = useState({ email: '' })
 
 	useEffect(() => {
 		validateForm()
