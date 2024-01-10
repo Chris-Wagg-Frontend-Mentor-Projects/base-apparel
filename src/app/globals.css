@@ -39,7 +39,6 @@ header {
 	flex-shrink: 1;
 	flex-direction: column;
 	justify-content: center;
-	/* width: 30rem; */
 	max-width: 30rem;
 	height: 100%;
 	align-self: center;
@@ -69,7 +68,6 @@ form {
 }
 
 input {
-	/* position: absolute; */
 	border: 1px solid hsl(0, 36%, 70%);
 	padding: 1rem;
 	border-radius: 99px;
@@ -154,7 +152,6 @@ input:invalid {
 
 	.mobile-image {
 		display: block;
-		/* width: 375px; */
 	}
 
 	header {
